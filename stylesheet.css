@@ -1,3 +1,23 @@
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('assets/fonts/montserrat-v24-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('assets/fonts/montserrat-v24-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    font-display: swap;
+  }
+  /* montserrat-700 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('assets/fonts/montserrat-v24-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('assets/fonts/montserrat-v24-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    font-display: swap;
+  }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -45,4 +65,55 @@ q:before, q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+
+/*own styles*/
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+.page-header {
+    position: relative;
+    padding-top: 3.5rem;
+    height: 50rem;
+    overflow: hidden;
+    background-color: #F0F0F0;
+}
+.header-background {
+    position: absolute;
+    width: auto;
+    top: 0;
+    right: 0;
+    height: 100%;
+    z-index: 1;
+}
+.header-content {
+    position: relative;
+    z-index: 2;
+    max-width: 94rem;
+    width: 100%;
+    margin: 0 auto;
+}
+.headline-large {
+    font-size: 4.5rem;
+    color: #54865C;
+    font-weight: 700;
+    line-height: 6rem;
+    margin-bottom: 2.5rem;
+}
+.button {
+    display: inline-block;
+    background-color: #F19898;
+    padding: 1rem 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5rem;
+    transition: background-color .3s ease-in-out;
+}
+.button:hover {
+    background-color: #e96666;
+}
+.logo {
+    margin-bottom: 6.5rem;
 }
