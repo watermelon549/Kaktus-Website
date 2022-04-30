@@ -77,6 +77,7 @@ html {
     height: 50rem;
     overflow: hidden;
     background-color: #F0F0F0;
+    margin-bottom: 5rem;
 }
 .header-background {
     position: absolute;
@@ -116,4 +117,76 @@ html {
 }
 .logo {
     margin-bottom: 6.5rem;
+}
+.intro {
+    max-width: 78rem;
+    width: 100%;
+    margin: 0 auto 5rem;
+    text-align: center;
+}
+.headline-medium {
+    color: #54865C;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    line-height: 4rem;
+}
+.intro p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.text-media {
+    max-width: 78rem;
+    width: 100%;
+    margin: 0 auto 5rem;
+    display: flex;
+    
+}
+.text-media p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+.text-media p:last-child {
+    margin-bottom: 0;
+}
+.text-media-text {
+    margin: 0 2rem 0;
+    line-height: 2rem;
+}
+.paragraph {
+    font-size: 20px;
+}
+.gallery {
+    max-width: 94rem;
+    width: 100%;
+    margin: 0 auto 5rem;
+}
+.gallery-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.page-footer {
+    background-color: #54865C;
+}
+.copyright {
+    text-transform: uppercase;
+}
+.footer-navigation a {
+    color: #FFF;
+    text-decoration: none;
+}
+.footer-navigation a:hover {
+    text-decoration: underline;
+}
+.page-footer-content {
+    max-width: 94rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #FFF;
+    padding: 1.5rem 0;
+
 }
